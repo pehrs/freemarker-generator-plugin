@@ -1,0 +1,8 @@
+public void mergeFrom(${class.getName()} from) {
+  <#list allFields as field>
+    <#if field.isStatic()?string('yes','no') == 'no'>
+    this.set${field.name?cap_first}(from.get${field.name?cap_first}());
+    </#if>
+  </#list>
+}
+

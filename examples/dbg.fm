@@ -1,0 +1,32 @@
+
+// Variables:
+// class.getName():       ${class.getName()}
+// date:                  ${date}
+// javaVersion:           ${javaVersion}
+// javaFeatureVersion:    ${javaFeatureVersion}
+// javaMinorVersion:      ${javaMinorVersion}
+// javaUpdateVersion:     ${javaUpdateVersion}
+
+//
+// FIELDS:
+// ${"<"}#list allFields as field${">"}
+// ${"<"}/#list${">"}
+//
+<#list allFields as field>
+// --------------------------------------
+//
+// ${field.getType()} ${field.getName()}
+//
+// field.getType()     = ${field.type}
+// field.getName()     = ${field.getName()}
+// field.isStatic()    = ${field.isStatic()?string('true','false')}
+// field.isPublic()    = ${field.isPublic()?string('true','false')}
+// field.isProtected() = ${field.isProtected()?string('true','false')}
+// field.isPrivate()   = ${field.isPrivate()?string('true','false')}
+// field.isArray()     = ${field.isArray()?string('true','false')}
+// field.isCollection()= ${field.isCollection()?string('true','false')}
+// field.isSet()       = ${field.isSet()?string('true','false')}
+// field.isList()      = ${field.isList()?string('true','false')}
+//
+</#list>
+

@@ -1,0 +1,11 @@
+
+private static com.fasterxml.jackson.databind.ObjectMapper objectMapper =
+  new com.fasterxml.jackson.databind.ObjectMapper();
+
+public java.lang.String toString() {
+  try {
+    return objectMapper.writeValueAsString(this);
+  } catch (JsonProcessingException e) {
+    throw new RuntimeException(e);
+  }
+}
