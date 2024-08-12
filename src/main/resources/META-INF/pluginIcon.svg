@@ -26,18 +26,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="5.34375"
-     inkscape:cx="69.239766"
-     inkscape:cy="-29.847953"
+     inkscape:cx="24.140351"
+     inkscape:cy="15.064327"
      inkscape:window-width="1915"
      inkscape:window-height="1065"
      inkscape:window-x="1080"
      inkscape:window-y="637"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3" />
-  <path
-     d="M32.0845 7.94025V4H24.0203V7.9896H16.029V4H7.91553V7.94025H4V36H16.0044V32.0045C16.0058 30.9457 16.4274 29.9308 17.1766 29.1826C17.9258 28.4345 18.9412 28.0143 20 28.0143C21.0588 28.0143 22.0743 28.4345 22.8234 29.1826C23.5726 29.9308 23.9942 30.9457 23.9956 32.0045V36H36V7.94025H32.0845Z"
-     fill="url(#paint0_linear)"
-     id="path1" />
   <defs
      id="defs3">
     <linearGradient
@@ -68,22 +64,19 @@
        x2="-4570.1162"
        y2="1395.619"
        gradientTransform="matrix(0.42260004,-0.9063001,0.9063001,0.42260004,3144.8129,-4619.2989)">
-	<stop
-   offset="0"
-   style="stop-color:#F69923"
-   id="stop1-6" />
-
-	<stop
-   offset="0.3123"
-   style="stop-color:#F79A23"
-   id="stop2-2" />
-
-	<stop
-   offset="0.8383"
-   style="stop-color:#E97826"
-   id="stop3-9" />
-
-</linearGradient>
+      <stop
+         offset="0"
+         style="stop-color:#F69923"
+         id="stop1-6" />
+      <stop
+         offset="0.3123"
+         style="stop-color:#F79A23"
+         id="stop2-2" />
+      <stop
+         offset="0.8383"
+         style="stop-color:#E97826"
+         id="stop3-9" />
+    </linearGradient>
     <linearGradient
        id="SVGID_2_"
        gradientUnits="userSpaceOnUse"
@@ -92,27 +85,23 @@
        x2="-5326.209"
        y2="620.50482"
        gradientTransform="matrix(0.42260004,-0.9063001,0.9063001,0.42260004,3144.8129,-4619.2989)">
-	<stop
-   offset="0.3233"
-   style="stop-color:#9E2064"
-   id="stop11" />
-
-	<stop
-   offset="0.6302"
-   style="stop-color:#C92037"
-   id="stop12" />
-
-	<stop
-   offset="0.7514"
-   style="stop-color:#CD2335"
-   id="stop13" />
-
-	<stop
-   offset="1"
-   style="stop-color:#E97826"
-   id="stop14" />
-
-</linearGradient>
+      <stop
+         offset="0.3233"
+         style="stop-color:#9E2064"
+         id="stop11" />
+      <stop
+         offset="0.6302"
+         style="stop-color:#C92037"
+         id="stop12" />
+      <stop
+         offset="0.7514"
+         style="stop-color:#CD2335"
+         id="stop13" />
+      <stop
+         offset="1"
+         style="stop-color:#E97826"
+         id="stop14" />
+    </linearGradient>
     <linearGradient
        id="SVGID_7_"
        gradientUnits="userSpaceOnUse"
@@ -121,27 +110,36 @@
        x2="-5351.2017"
        y2="999.73297"
        gradientTransform="matrix(0.42260004,-0.9063001,0.9063001,0.42260004,3144.8129,-4619.2989)">
-	<stop
-   offset="0.3233"
-   style="stop-color:#9E2064"
-   id="stop31" />
-
-	<stop
-   offset="0.6302"
-   style="stop-color:#C92037"
-   id="stop32" />
-
-	<stop
-   offset="0.7514"
-   style="stop-color:#CD2335"
-   id="stop33" />
-
-	<stop
-   offset="1"
-   style="stop-color:#E97826"
-   id="stop34" />
-
-</linearGradient>
+      <stop
+         offset="0.3233"
+         style="stop-color:#9E2064"
+         id="stop31" />
+      <stop
+         offset="0.6302"
+         style="stop-color:#C92037"
+         id="stop32" />
+      <stop
+         offset="0.7514"
+         style="stop-color:#CD2335"
+         id="stop33" />
+      <stop
+         offset="1"
+         style="stop-color:#E97826"
+         id="stop34" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter2"
+       x="-0.058900766"
+       y="-0.1186431"
+       width="1.1178015"
+       height="1.2372862">
+      <feGaussianBlur
+         stdDeviation="0.6 0.6"
+         result="blur"
+         id="feGaussianBlur2" />
+    </filter>
   </defs>
   <path
      fill="url(#SVGID_1_)"
@@ -165,7 +163,7 @@
      style="fill:url(#SVGID_7_);stroke-width:1" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter2)"
      x="20.469614"
      y="17.285614"
      id="text3"><tspan
@@ -173,10 +171,27 @@
        id="tspan3"
        x="20.469614"
        y="17.285614"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;font-family:Dosis;-inkscape-font-specification:'Dosis Bold';text-align:center;text-anchor:middle;fill:#ffffff">FreeMarker</tspan><tspan
+       sodipodi:role="line"
+       x="20.469614"
+       y="24.233526"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;font-family:Dosis;-inkscape-font-specification:'Dosis Bold';text-align:center;text-anchor:middle;fill:#ffffff"
+       id="tspan4">Codegen</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="20.469614"
+     y="17.285614"
+     id="text2"
+     sodipodi:insensitive="true"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       x="20.469614"
+       y="17.285614"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;font-family:Dosis;-inkscape-font-specification:'Dosis Bold';text-align:center;text-anchor:middle">FreeMarker</tspan><tspan
        sodipodi:role="line"
        x="20.469614"
        y="24.233526"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;font-family:Dosis;-inkscape-font-specification:'Dosis Bold';text-align:center;text-anchor:middle"
-       id="tspan4">Codegen</tspan></text>
+       id="tspan2">Codegen</tspan></text>
 </svg>
