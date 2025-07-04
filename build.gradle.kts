@@ -11,7 +11,7 @@ plugins {
 }
 
 group = "com.pehrs"
-version = "1.0.0"
+version = "1.0.1"
 
 
 repositories {
@@ -79,7 +79,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("231")
-        untilBuild.set("241.*")
+        untilBuild.set(provider { null })
     }
 
     signPlugin {

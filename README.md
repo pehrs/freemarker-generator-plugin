@@ -131,6 +131,6 @@ More examples can be found in the [`examples`](./examples) dir.
 ./gradlew runPluginVerifier
 
 
-# Build the distributable zip (./build/distributions/freemarker-generator-plugin-1.0-SNAPSHOT.zip)
+# Build the distributable zip (result in ./build/distributions/)
 ./gradlew buildPlugin
 ```

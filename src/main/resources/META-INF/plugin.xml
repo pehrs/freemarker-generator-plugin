@@ -26,8 +26,9 @@
   <!-- Product and plugin compatibility requirements.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
   <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.lang</depends>
   <depends>com.intellij.modules.java</depends>
-  <depends>com.intellij.modules.idea.community</depends>
+<!--  <depends>com.intellij.modules.idea.community</depends>-->
 
 
   <!-- Extension points defined by the plugin.
